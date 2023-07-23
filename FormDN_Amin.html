@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/DN_Admin.css">
+    <title>Form_Đăng Nhập</title>
+</head>
+<body>
+    <div class="page-login">
+        <div class="page-login-box">
+            <form class="form_DN">
+                <h2>Đăng nhập</h2>
+                <div class="input_user">
+                    <input type="text" id="loginUser" required>
+                    <label for="loginUser">UserName</label>
+                </div>
+                <div class="input_user">
+                    <input type="password" id="loginPw" required>
+                    <label for="loginPw">Password</label>
+                </div>
+                <input type="submit" id="submit_btn" value="Đăng Nhập">
+                <label id="err" style="color: red;"></label>
+                <a href="#forget_pw" class="forget_pw">Quên mật khẩu</a>
+                <a href="Dangnhapdangky.html" class="register">Đăng ký</a>
+            </form>
+            <div id="forget_pw">
+                <form action="" class="form_DN">
+                    <a href="" class="close">&times;</a>
+                    <h2>Đặt lại mật khẩu</h2>
+                    <div class="input_user">
+                        <input type="email" id="email" required>
+                        <label for="email">Nhập Email</label>
+                    </div>
+                    <input type="submit" id="submit_btn" value="Đăng Nhập" >
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+<script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous">
+</script>
+<script>
+    $('#err').html('');
+    $(".form_DN").submit(function (event) {
+        var _tailkhoan = $('#loginUser').val();
+        var _matkhau = $('#loginPw').val();               
+        if (_tailkhoan == 'minhtam' && _matkhau == 'tam0207') {
+            var User = { tailkhoan: _tailkhoan, matkhau: _matkhau };
+            localStorage.setItem('user', JSON.stringify(User));
+            window.location.href = "Admin.html";
+        } 
+        else {
+            $('#err').html('Thông tin tài khoản hoặc mật khẩu không đúng');
+        }
+        event.preventDefault();
+    });
+</script>
+</html>

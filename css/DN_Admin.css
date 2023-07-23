@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('/Doan2/images/logo/foster-lake-thumbnail.jpg');
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+    font-family: sans-serif;
+    flex: 1;
+}
+.page-login-box{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 130px;
+}
+.form_DN{
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    padding: 80px 40px 40px;
+    background: rgba(0, 1, 1, 0.7);
+    border-radius: 20px;
+    color: #fff;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+}
+.form_DN::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    border-radius: 12px;
+    pointer-events: none;
+}
+.form_DN h2{
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    color: white;
+}
+.form_DN .input_user input{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 14px;
+    letter-spacing: 1.2px;
+    margin-bottom: 30px;
+    border: none;
+    background-color: transparent;
+    color: inherit;
+    border-bottom: 1px solid cyan;
+    outline: none;
+}
+.form_DN .input_user label{
+    position: absolute;
+    left: 40px;  
+    padding: 10px 0; 
+    font-size: 14px;
+    pointer-events: none;
+    transition: .4s ease-out; 
+}
+
+.form_DN .input_user input:focus + label,
+.form_DN .input_user input:valid + label{
+    transform: translateY(-18px);
+    color: red;
+    font-size: 12px;
+}
+#submit_btn{
+    display: block;
+    margin-left: auto;
+    outline: none;
+    background: #4b7de8;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#submit_btn:hover{
+    background-color: red;
+    color: #fff;
+}
+.forget_pw{
+    color: inherit;
+    position: absolute;
+    left: 40px;
+}
+#forget_pw{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    opacity: 0;
+    background: url('/Doan2/images/logo/hinh-anh-hoa-dao-33.jpg');
+    background-size: cover;
+    transition: 0.4s;
+}
+#forget_pw:target{
+    height: 100%;
+    opacity: 1;
+}
+.close{
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 17px;
+    color: inherit;
+}
+.close:hover{
+    color: red;
+    transition: .4s;
+}
+.register{
+    color: white;
+}

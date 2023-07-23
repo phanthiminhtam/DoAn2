@@ -1,0 +1,191 @@
+.first_main{
+    width: 100%;
+}
+.container_main{
+    width: 97%;
+    margin: auto;
+}
+.box-login-one {
+    margin-bottom: 25px;
+    margin: auto;
+}
+h1.title-box-login {
+    text-align: center;
+    font-size: 19px;
+    color: #666666;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-weight: 300;
+}
+.fv-login-social button{
+    width: 120px;
+    height: 40px;
+    border: none;
+} 
+#btn-facebook-login{
+    background-color: #3b5998;
+    color: #fff;
+}
+#btn-google-login{
+    background-color: #dd4b38;
+    color: #fff;
+}
+.liner-or {
+    width: 100%;
+    position: relative;
+    height: 30px;
+    border-bottom: 1px solid #dfdfdf;
+}
+.liner-or span{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 15px;
+    background: #fff;
+    display: inline-block;
+    padding: 5px;
+    color: #999999;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+.box-login-two{
+    width: 97%;
+    margin: 0 auto;
+    
+}
+.col-xs-12{
+    width: 50%;
+}
+.content-cus-form {
+    width: 410px;
+    margin: auto;
+}
+h1.title-box-login{
+    text-align: center;
+    font-size: 19px;
+    color: #666666;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-weight: 300;
+}
+.content-cus-form .col_full.action{
+    text-align: center;
+}
+.content-cus-form .col_full > button {
+    width: 100%;
+    margin-bottom: 20px !important;
+    display: block;
+    height: 40px;
+    border: 1px solid #6f6a60;
+    background: transparent;
+    color: #6f6a60;
+    transition: all 300ms ease-in-out;
+}
+.content-cus-form .col_full > button:hover {
+    border: 1px solid #0c6363;
+    background: #0c6363;
+    color: #fff;
+}
+.content-cus-form .col_full.action a {
+    font-weight: bold;
+    text-decoration: underline !important;
+}
+.content-cus-form .col_full > button.cancel
+ {
+    width: auto;
+    background: transparent !important;
+    border: none !important;
+    color: #4480fc;
+    text-transform: none;
+    text-shadow: none;
+    font-weight: bold;
+    margin: 0 !important;
+    float: none !important;
+    display: inline-block;
+    padding: 0;
+    font-size: 14px;
+    text-decoration: underline;
+}
+.col_full {
+    display: block;
+    position: relative;
+}
+.content-cus-form .col_full > input {
+    border: 1px solid #cccccc;
+    height: 40px;
+    padding-top: 0;
+    padding-bottom: 0;
+    outline: none !important;
+    box-shadow: none !important;
+    padding-left: 42px;
+    width: 100%;
+    margin-bottom: 15px !important;
+}
+.not-null {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    color: #ed1846;
+    font-size: 20px;
+    z-index: 1;
+}
+.icon_checkout {
+    background: url(//theme.hstatic.net/1000223746/1000664307/14/icon-checkout.png?v=128) 0 0 no-repeat;
+    background-size: 300px;
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    position: absolute;
+    top: 9px;
+    left: 12px;
+}
+.icon_checkout.ico-email {
+    background-position: 0 -44px;
+}
+.icon_checkout.ico-pass {
+    background-position: 0 -154px;
+}
+.icon_checkout.ico-name {
+    background-position: 0 -22px;
+}
+.icon_checkout.ico-repass {
+    background-position: 0 -180px;
+}     
+.require_symbol {
+    color: red!important;
+    display: none;
+} 
+span.repassword_warning {
+    position: absolute;
+    top: -16px;
+    font-size: 12px;
+}
+#recover-password .acctitle i {
+    font-weight: normal;
+    margin-right: 5px;
+    font-size: 14px;
+    line-height: 40px;
+}
+#recover-password .col_full label {
+    font-weight: normal;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.errors li {
+    display: block;
+    font-size: 15px;
+    font-style: italic;
+    margin-bottom: 10px !important;
+    color: #d34836;
+}
+@media screen and (max-width: 991px){
+    .content-cus-form {
+    width: 320px;
+    }
+}
+@media screen and (max-width: 400px){
+    .content-cus-form {
+    width: 280px;}
+}
+    

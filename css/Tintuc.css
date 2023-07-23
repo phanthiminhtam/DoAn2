@@ -1,0 +1,63 @@
+.text_BT{
+    margin-top: 100px;
+    position: relative;
+    text-align: center;
+    color: #199427;
+    display: inline-block;
+    margin-left: 185px;
+}
+.text_BT h2{
+    font-size: 34px;
+    line-height: 40px;
+    font-weight: 500;
+}
+.text_bt2{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 25px;
+    color: #6f6f6f;
+}
+.text_bt3{
+    margin: auto;
+    padding: 20px 20px;
+    text-align: center;
+}
+.p-noidung{
+    text-indent: 34px;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: justify;
+    margin-top: 10px;
+    line-height: 30px;
+}
+.text_bt5{
+    color: #246f24;
+    margin-top: 10px;
+}
+.text_bt5 h2{
+    text-align: right;
+    font-size: 40px;
+    font-weight: 500;
+}
+.text_bt6{
+    background: #fff8f3;
+    padding: 20px 20px;
+    margin-bottom: 100px;
+    padding-bottom: 70px;
+    position: relative;
+    display: flex;
+    margin-top: 20px;
+}
+.bt6_cuahang{
+    width: 500px;
+    height: 400px;
+}
+.bt6_text{
+    list-style-type: circle;
+
+}
+.bt6_text li{
+    font-size: 17px;
+    text-align: justify;
+    line-height: 35px;
+}

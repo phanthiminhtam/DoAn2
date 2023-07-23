@@ -1,0 +1,66 @@
+html{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.td_header1{
+    width: 100%;
+    height: 430px;
+    margin-top: 50px;
+}
+.container_same{
+    width: 97%;
+    margin: auto;
+    display: flex;
+}
+.danhmucsp_td{
+    width: 25%;
+    height: 400px;
+    border: 1px solid #eee;
+}
+.danhmucsp_td  li{
+    font-size: 17px;
+    line-height: 35px;
+}
+.danhmucsp_td  li a{
+    text-decoration: none;
+    color: #666;
+}
+.danhmucsp_td  li:hover a{
+    text-decoration-line: underline;
+    color: green;
+}
+.danhmucsp_td_img{
+    width: 72%;
+    height: 400px;
+    border: 1px solid #eee;
+    margin-left: 40px;
+}
+.td_header2{
+    width: 100%;
+    height: 1730px;
+    margin-top: 20px;
+}
+.noibat{
+    height: 500px;
+}
+.danhmucsp_td_tt{
+    width: 72%;
+    margin-left: 40px;
+}
+.Node_bam{
+    width: 50%;
+    height: 40px;
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    text-align: center;
+}
+.so_nut{
+    width: 10%;
+    line-height: 40px;
+    border-radius: 5px;
+    border: 1px solid #eee;
+    font-size: 20px;
+}
+.so_nut:hover{
+    background-color: green;
+}

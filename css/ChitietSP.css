@@ -1,0 +1,360 @@
+.border_vien{
+    width: 100%;
+    position: relative;
+    top: 30px;
+}
+html{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.phan_chinh{
+    width: 97%;
+    margin: auto;
+    display: flex;
+}
+.ol_chinh{
+    display: flex;
+    margin-left: -38px;
+}
+.ol_chinh li{
+    list-style-type: none;
+    margin-right: 35px;
+    line-height: 30px;
+}
+.ol_chinh li:after {
+    content: "/";
+    color: rgb(152, 152, 152);
+    position: absolute;
+    left: 120px;
+    top: 1px;
+}
+.ol_chinh li:before{
+    content: "/";
+    color: rgb(152, 152, 152);
+    position: absolute;
+    left: 270px;
+    top: 1px;
+}
+.ol_chinh > li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+.ol_chinh  .li_chinh{
+    color: #999;
+}
+.ol_chinh li:hover{
+    text-decoration-line: underline;
+}
+.phangiua_ct1{
+    width: 100%;
+    position: relative;
+    top: 55px;
+}
+.phan_chinh_left{
+    width: 70%;
+    height: 600px;
+}
+.row_chinh_left{
+    display: flex;
+    justify-content: space-between;
+}
+.pc1{
+    width: 50%;
+    height: 600px;
+    flex: 1;
+}
+.phanto_pc1{
+    width: 100%;
+    height: 470px;
+    border: 1px solid #eee;
+}
+.phannho_pc1{
+    width: 20%;
+    height: 90px;
+    margin-top: 40px;
+    border: 1px solid green;
+    padding: 2px;
+}
+.phannho_pc1 > img{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+.pc2{
+    width: 50%;
+    height: 600px;
+    flex: 1;
+    margin-left: 20px;
+}
+.title-Product{
+    font-size: 25px;
+    color: #666;
+    font-weight: 400;
+    line-height: 28px;
+}
+#star{
+    width: 30%;
+    display: flex;
+    list-style-type: none;
+    color: gold;
+    justify-content: space-between;
+}
+.price-drop{
+    position: relative; 
+    line-height: 30px;
+    font-weight: 700;
+    color: #199427;
+    font-size: 25px;
+}
+.price-vince p{
+    font-size: 15px;
+    color: #666;
+    margin: 10px 0;
+}
+.box-note{
+    border: 1px solid #d6d6d6;
+    border-left: none;
+    border-right: none;
+    padding: 18px 0;
+    color: #666;
+    font-size: 18px;
+    line-height: 35px;
+}
+.number-card{ 
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 35px;
+    display: flex;
+}
+.number-card input {
+    border-radius: 5px;
+    width: 45px;
+    font-size: 18px;
+}
+.btn-bts{
+    line-height: 50px;
+    font-size: 19px;
+    border: none;
+    padding: 0 12px;
+    color: #fff;
+    margin-left: 3px;
+    margin-top: 5px;
+}
+.btn-bts2{
+    line-height: 50px;
+    font-size: 19px;
+    border: none;
+    padding: 0 12px;
+    color: #fff;
+    margin-left: 3px;
+    margin-top: 5px;
+}
+.btn-bts3{
+    line-height: 50px;
+    font-size: 19px;
+    border: none;
+    padding: 0 12px;
+    color: #fff;
+    margin-left: 3px;
+    margin-top: 5px;
+}
+.btn-bts,
+.btn-bts2,
+.btn-bts3:hover{
+    cursor: pointer;
+}
+.btn_nhanh{
+    height: 50px;
+    border: none;
+    padding: 0 12px;
+    margin-left: 5px;
+    margin-top: 5px;
+    background-color: #f36f36;
+}
+.btn_nhanh > a{
+    line-height: 50px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 19px;
+}
+.phan_chinh_right{
+    width: 25%;
+    height: 500px;
+    border: 1px solid #eee;
+    margin-left: 70px;
+}
+.title-right{
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    height: 56px;
+    padding: 2px 0;
+}
+.title-right strong{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #333;
+}
+.box-shas{
+    display: flex;
+    font-size: 13px;
+    margin-top: 15px;
+}
+.content-shas p{
+    margin-top: 5px;
+    line-height: 20px;
+}
+.box-thongtin{
+    width: 100%;
+    position: relative;
+    top: 50px;
+    bottom: 100px;
+    height: 3100px;
+    background-color: #eee;
+}
+.box-thongtin-chinh{
+    width: 97%;
+    margin: auto;
+    /* border-bottom: 1px solid rgb(209, 5, 5); */
+}
+.title-member{
+    color: #1f601f;
+    font-size: 17px;
+    line-height: 50px;
+    width: 20%;
+    border-bottom: 5px solid #199427;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+.back-content{
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    font-size: 20px;
+    padding: 20px;
+    margin: auto;
+    border-bottom: none;
+    text-align: justify;
+    color: #444444;
+    line-height: 30px;
+}
+.cart{
+    position: fixed;
+    width: 30%;
+    background-color: white;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    z-index: 9999;
+    transform: scale(0);
+    transition: transform 0.4s;
+    transform-origin: top right;
+    /* transform: translateX(100%); */
+}
+.cart_head{
+    text-align: center;
+    font-size: 22px;
+    line-height: 80px;
+    font-weight: 600;
+    border-bottom: 1px solid #eee;
+}
+.cart_item{
+    width: 100%;
+    height: 110px;
+    border-bottom: 1px solid #eee;
+    flex: 1;
+}
+.img_anh1{
+    width: 100%;
+    height: 100%;
+}
+.ten_item{
+    width: 100%;
+    height: 100%;
+}
+.ten_item > a{
+    line-height: 30px;
+    text-decoration: none;
+    color: #444444;
+}
+.pull-right{
+    color: #1f601f;
+    font-weight: 700;
+    margin-left: 170px;
+}
+.fx{
+    margin-left: 150px;
+}
+.all-monney{
+    font-size: 22px;
+    line-height: 110px;
+    margin-left: 20px;
+    display: flex;
+}
+.fa-lg{
+    color: #f42b2b;
+    margin-left: 300px;
+}
+.text-center{
+    width: 50%;
+    line-height: 55px;
+    border: 1px solid #199427;
+    border-radius: 10px;
+    margin: 25px 100px;
+    text-align: center;
+}
+.btn-xem{
+    text-decoration: none;
+    font-size: 20px;
+    color: #333;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+}
+.text-center:hover{
+    background-color: #1f601f;
+}
+.btn-xem:hover{
+    color: white;
+}
+.text-center_cn{
+    width: 25%;
+    line-height: 40px;
+    background-color: #f42b2b;
+    border-radius: 5px;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+.btn-xem_cn_gh{
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+}
+.text-center_cn:hover{
+    background-color: #1f601f;
+}
+.manhinh{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(2,2,2,.70);
+    z-index: 5;
+    display: none;
+}
+.cn_giohang{
+    text-decoration: none;
+    font-size: 20px;
+    color: #333;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+}
+
+

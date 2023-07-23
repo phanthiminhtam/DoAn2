@@ -1,0 +1,106 @@
+.dh_first{
+    width: 100%;
+    height: 700px;
+    margin-top: 50px;
+}
+.container_dh{
+    width: 97%;
+    margin: auto;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+.dh_left{
+    width: 65%;
+    height: 500px;
+    /* border: 1px solid #eee; */
+}
+.dh_left > h1{
+    line-height: 50px;
+    font-weight: 500;
+    font-size: 27px;
+}
+.quaylai{
+    width: 20%;
+    line-height: 50px;
+    text-align: center;
+    background-color: #eee;
+    color: white;
+    margin-left: 80px;
+    margin-top: 25px;
+}
+.quaylai > a{
+    text-decoration: none;
+    color: #666;
+}
+.giohang_thdh{
+    width: 40%;
+    border: 1px solid #eee;
+    background-color: rgb(253, 249, 249);
+}
+.tamtinh{
+    width: 95%;
+    margin: auto;
+    font-size: 19px;
+    border-bottom: 2px solid #eee ;
+}
+.thanhtien{
+    width: 95%;
+    margin: auto;
+    font-size: 19px;
+}
+.ttien{
+    line-height: 30px;
+}
+.phivc{
+    border-bottom: 2px solid #e54d42 ;
+}
+.km{
+    margin: 30px 0px;
+}
+.ten_item_th{
+    margin-left: 10px;
+    font-size: 18px;
+    border-bottom: 1px solid #eee;
+    height: 100px;
+}
+.ten_item_th a{
+    height: 10px;
+    text-decoration: none;
+    color: #444444;
+    margin-top: 150px;
+    line-height: 30px;
+}
+.cart_item_th{
+    width: 97%;
+    flex: 1;
+    margin: auto;
+    
+}
+.btn-dh{
+    width: 100%;
+    line-height: 50px;
+    text-align: center;
+    background-color: #1f601f;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+.btn-dh:hover{
+    background-color: rgb(18, 138, 18);
+}
+
+/* .row .div label{
+    position: absolute;
+    transition: .4s ease-out;
+}
+.row .div input:focus + label,
+.row .div input:valid + label{
+    transform: translateY(-18px);
+    color: red;
+   
+} */
+
+
+
